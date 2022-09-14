@@ -36,7 +36,7 @@ export default function Product(props) {
               <div className="count-class">{count}</div>
             </React.Fragment>
           )}
-          {count < 10 && (
+          {count < 2 && (
             <Add
               className={`button-class ${
                 selectedBundles.length > 2 ? "disabled" : ""
