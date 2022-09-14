@@ -1,0 +1,16 @@
+.bundle-class {
+  margin: 16px auto;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 8px 16px;
+
+  .bundle-img {
+    font-size: 64px;
+  }
+
+  .bundle-info {
+    text-align: right;
+    font-size: 18px;
+    text-transform: capitalize;
+  }
+}

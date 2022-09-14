@@ -1,0 +1,26 @@
+.products-class {
+  text-transform: capitalize;
+  margin: 40px auto;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  flex-wrap: wrap;
+
+  h4 {
+    padding-bottom: 4px;
+  }
+
+  small {    
+    color: grey;
+  }
+
+  .product-container {
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar, nav::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
